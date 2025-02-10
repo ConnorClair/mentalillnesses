@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8" />
+    <title>Search</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=yes">
+  </head>
+  <body>
+    <div class="search-container">
+      <input
+        type="text"
+        id="searchInput"
+        placeholder="Search..."
+        onkeypress="return searchOnEnter(event)"
+      />
+      <button onclick="search()">Search</button>
+    </div>
+
+    <div class="search-results-container">
+      <!-- Added container for search results -->
+      <div id="searchResults"></div>
+    </div>
+
+    <script src="scripts/search.js"></script>
+    <section>
+      <box class="bottom-box">
+        <div style="margin-left: 10px; margin-right: 10px">
+          <div class="container">
+          </div>
+        </div>
+      </box>
+    </section>
+  </body>
+</html>
