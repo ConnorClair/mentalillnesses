@@ -2,11 +2,6 @@ body{
 	background-color: antiquewhite;
 }
 
-body, html {
-    margin: 0;
-    padding: 0;
-}
-
 .card {
  width: calc(33.33% - 20px);
 max-width: 225px;
