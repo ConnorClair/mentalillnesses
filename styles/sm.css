@@ -96,3 +96,6 @@ content {
 	 width: calc(85vw)
 }
 }
+content section{
+	margin-bottom: 700px;
+}
