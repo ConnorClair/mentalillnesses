@@ -45,6 +45,29 @@
     margin-top: 5px;
 }
 
+#definitionPopup .synonyms,
+#definitionPopup .antonyms {
+    margin-left: 10px;
+    margin-top: 10px;
+}
+
+#definitionPopup .synonyms span,
+#definitionPopup .antonyms span {
+    cursor: pointer;
+    color: #27445D;
+    text-decoration: underline;
+    margin-right: 5px;
+}
+
+#definitionPopup .close-btn {
+    position: absolute;
+    top: 10px;
+    left: 10px;
+    cursor: pointer;
+    font-size: 20px;
+    color: #666;
+}
+
 body.popup-open content {
     width: calc(98vw - 220px - 300px);
     transition: width 0.3s ease;
