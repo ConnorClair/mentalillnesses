@@ -1,3 +1,98 @@
 body{
-	background-color: antiquewhite;
+	background-color: #C1BAA1;
+}
+
+.nav {
+    width: 100%;
+	height: 75px;
+    display: flex;
+    justify-content: center;
+    background-color: #27445D;
+    color: #EFE9D5;
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 1000;
+}
+
+
+.sidebar {
+  margin: 0;
+  padding: 0;
+  width: 200px;
+  background-color: #71BBB2;
+  position: fixed;
+  height: 100%;
+  overflow: auto;
+}
+
+/* Sidebar links */
+.sidebar a {
+  display: block;
+  color: black;
+  padding: 16px;
+  text-decoration: none;
+}
+
+/* Active/current link */
+.sidebar a.active {
+  background-color: #497D74;
+  color: white;
+}
+
+/* Links on mouse-over */
+.sidebar a:hover:not(.active) {
+  background-color: #555;
+  color: white;
+}
+
+/* On screens that are less than 700px wide, make the sidebar into a topbar */
+@media screen and (max-width: 700px) {
+  .sidebar {
+    width: 100%;
+    height: auto;
+    position: relative;
+  }
+  .sidebar a {float: left;}
+  div.content {margin-left: 0;}
+	
+	.content{
+		width:calc(100vw - 18px);
+	}
+}
+
+/* On screens that are less than 400px, display the bar vertically, instead of horizontally */
+@media screen and (max-width: 400px) {
+  .sidebar a {
+    text-align: center;
+    float: none;
+  }
+}
+
+content {
+    position: absolute;
+    left: 220px;
+	word-break:normal;
+}
+
+content {
+    position: absolute;
+    left: 220px;
+    width: calc(98vw - 220px);
+    word-break: break-word; /* Ensure long words break */
+    overflow-wrap: break-word; /* Alternative for better compatibility */
+    box-sizing: border-box; /* Ensure padding doesn't affect width */
+}
+
+.content {
+    position: absolute;
+    top: 75px;
+}
+
+@media screen and (max-width: 700px) {
+  content {
+    position: absolute;
+    left: 20px;
+	 width: calc(85vw)
+}
 }
