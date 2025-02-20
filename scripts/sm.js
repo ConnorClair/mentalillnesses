@@ -3,7 +3,7 @@ document.addEventListener('DOMContentLoaded', function () {
     const sections = document.querySelectorAll('content section');
 
     function setActiveLink() {
-        const scrollPosition = window.scrollY + window.innerHeight * 0.75; // About a fourth from the bottom
+        const scrollPosition = window.scrollY + window.innerHeight * 0.50; // About a fourth from the bottom
         let index = sections.length;
 
         while (--index >= 0 && scrollPosition < sections[index].offsetTop) {}

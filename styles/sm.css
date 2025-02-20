@@ -96,6 +96,39 @@ content {
 	 width: calc(85vw)
 }
 }
-content section{
-	margin-bottom: 700px;
+
+content section {
+		background-color: #B6AE91;
+		margin-bottom: 550px;
+      	padding: 20px;
+      	box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    }
+
+	.contentbox{
+		display: flex;
+	}
+
+	.left{
+	width:70%;
+	margin-right: 20px;
+	}
+
+	.right{
+	width:30%;
+	margin-left: 20px;
+	}
+	  
+    .image {
+      background-color: #e0e0e0;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      color: #555;
+      font-size: 16px;
+      border-radius: 4px;
+    }
+	
+.image img{
+	width: 20vw;
+	padding: 30px;
 }
