@@ -15,7 +15,7 @@
 }
 
 #definitionPopup h3 {
-    margin-top: 0;
+    margin-top: 40px; /* Added more space below the X button */
 }
 
 #definitionPopup ul {
