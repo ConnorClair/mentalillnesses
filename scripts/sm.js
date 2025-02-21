@@ -22,7 +22,7 @@ document.addEventListener('DOMContentLoaded', function () {
 
             if (targetSection) {
                 window.scrollTo({
-                    top: targetSection.offsetTop - 75,
+                    top: targetSection.offsetTop - 200,
                     behavior: 'smooth',
                 });
             }

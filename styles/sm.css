@@ -129,12 +129,11 @@ content section {
       border-radius: 4px;
     }
 	
-    .image{ img {
+    .image img {
       width: 20vw;
       border: 30px solid #e0e0e0; /* Solid border */
       border-radius: 10px; /* Slightly rounded corners */
   }
-}
 
 .end {
   background-color: #f9f9f9;
