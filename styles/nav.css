@@ -9,3 +9,17 @@ body, html {
 	justify-content: center;
 	background-color: #EFBF80;
 }
+
+.home{
+	background-color: #687c8e;
+	color: #d4dadf;
+	position: absolute;
+	left: 0;
+	top: 0;
+	margin-top: 20px;
+	margin-left: 25px;
+	height: 20px;
+	padding: 5px;
+	align-items: center;
+	border-radius: 5px;
+}

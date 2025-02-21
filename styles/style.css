@@ -73,6 +73,11 @@ body.popup-open content {
     transition: width 0.3s ease;
 }
 
+body.popup-open img {
+    width:15vw;
+    transition: width 0.3s ease;
+}
+
 body.popup-open {
     margin-right: 300px;
     transition: margin-right 0.3s ease;
